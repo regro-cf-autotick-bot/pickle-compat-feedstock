@@ -1,5 +1,5 @@
 {% set name = "pickle-compat" %}
-{% set version = "2.1.0" %}
+{% set version = "2.1.1" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/pickle-compat-{{ version }}.tar.gz
-  sha256: a8638218ff1ea0f0b8648f6341ee4ec599e5b97e7f5e5ffb9da1d17437e41730
+  sha256: 5325149ef9b4c1eab53f5e5f8883e4115e279c268cf0fca06e9c85c52b16e86d
 
 build:
   number: 0
